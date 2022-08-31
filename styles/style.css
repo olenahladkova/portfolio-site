@@ -1,3 +1,24 @@
 body {
-    font-family: 'Raleway';
+    font-family: 'Raleway' !important;
+}
+
+.logo-style {
+    font-family: 'Island Moments';
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 86px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 42px;
 }
