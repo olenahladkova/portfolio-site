@@ -16,6 +16,11 @@ h1 {
 h2 {
     font-size: 48px;
     line-height: 56px;
+    font-weight: bold;
+}
+
+h2.heading {
+    font-weight: normal;
 }
 
 h3 {
@@ -31,10 +36,74 @@ h4 {
 
 footer {
     background-color: #e9ecef;
-    padding: 24px 12px 24px 12px;
 }
 
 .fa-brands {
     font-size: 24px;
     padding: 0 12px;
+}
+
+.btn-secondary {
+    background-color: #e9ecef !important;
+    border: none !important;
+    color: black;
+}
+
+.skill-img {
+    padding: 36px;
+}
+
+@media (max-width: 576px) {
+    h1 {
+    font-size: 42px;
+    line-height: 64px;
+    text-align: center;
+    }
+
+    h2.heading {
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    }
+
+    h2 {
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    }
+
+    h3 {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-img {
+    padding: 12px;
+    }
+
+    .cv-button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .more-button {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    .more-button {
+        flex-direction: column;
+    }
 }
