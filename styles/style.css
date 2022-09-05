@@ -52,9 +52,10 @@ p {
 }
 
 .btn-secondary {
-    background-color: #e9ecef !important;
+    background-color: #a6a9ac !important;
     border: none !important;
     color: black;
+    font-weight: bold;
 }
 
 .skill-img {
